@@ -52,3 +52,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Devise for authentication
+gem 'devise'
+
+# Font-Awesome for ERB
+gem 'font_awesome5_rails'
+
+# Datetime-picker
+gem 'jquery_datetimepick', '~> 1.3', '>= 1.3.5'
